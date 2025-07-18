@@ -8,7 +8,7 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo \"No build step needed - Node.js backend only\"",
-    "deploy:heroku": "git push heroku main",
+    "deploy:heroku": "git push heroku master",
     "deploy:railway": "railway up"
   },
   "keywords": [
@@ -41,9 +41,7 @@
     "nodemon": "^2.0.22"
   },
   "engines": {
-    "node": "18.x",
-    "npm": "9.x",
-    "pnpm": "8.x"
+    "node": "18.x"
   },
   "packageManager": "pnpm@8.15.4"
 }
